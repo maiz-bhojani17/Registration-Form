@@ -1,42 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Form</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
-    <form>
-        <h1><sup>.</sup> Registartion Form <sup>.</sup></h1>
 
-        <label>
-            <p> <sup>.</sup> Name </p>
-            <input type="text" name="name">
-        </label>
+    <div class="container">
 
-        <label>
-           <p> <sup>.</sup> Email address </p>
-            <input type="email" name="email">
-        </label>
+        <span class="close">×</span>
 
-        <label>
-           <p> Country </p>
-            <input type="text" name="country">
-        </label>
+        <h1><sup>.</sup> Registration Form <sup>.</sup></h1>
 
-        <label>
-           <p> <sup>.</sup> Phone </p>
-            <input type="number" name="number">
-        </label>
+        <form>
 
-        <label>
-           <p> <sup>.</sup> Password </p>
-            <input type="password" name="password">
-        </label>
+            <div>
+                <label><sup>.</sup> Name</label>
+                <input type="text" name="name">
+            </div>
 
-        
-    </form>
+            <div>
+                <label><sup>.</sup> Email address</label>
+                <input type="email" name="email">
+            </div>
+
+            <div>
+                <label>Country</label>
+                <input type="text" name="country">
+            </div>
+
+            <div>
+                <label><sup>.</sup> Phone</label>
+                <input type="number" name="number">
+            </div>
+
+            <div>
+                <label><sup>.</sup> Password</label>
+                <input type="password" name="password">
+            </div>
+
+            <div class="check">
+                <input type="checkbox">
+                <small>By creating an account, you agree to our Terms & Conditions.</small>
+            </div>
+
+            <button>CREATE ACCOUNT</button>
+
+            <p>Already have an account? <a href="#">Sign in</a></p>
+
+        </form>
+
+    </div>
+
 </body>
+
 </html>
